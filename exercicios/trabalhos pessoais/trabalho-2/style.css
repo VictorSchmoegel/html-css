@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+:root {
+    --card-color: hsl(0, 0%, 100%);
+    --paragraph-color: hsl(212, 45%, 89%);
+    --backgoud-color: hsl(220, 15%, 55%);
+    --description-color: hsl(218, 44%, 22%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;   
+    background-color: var(--backgoud-color);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}   
+
+main {
+    max-width: 350px;
+    margin: 0 auto;
+    
+}
+
+.card {   
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+.upper {
+    max-width: 100%;
+       
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    padding: 15px;
+    text-align: center;
+    color: var(--description-color);
+}
+
+.paragraph {
+    color: var(--backgoud-color);
+    text-align: center;
+    padding-bottom: 20px;
+}
